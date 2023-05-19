@@ -1,0 +1,25 @@
+{
+  "name": "rescript-immutable-data",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+     {
+      "dir": "examples",
+      "subdirs": true,
+       "mode": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@rescript/core"
+  ],
+  "bsc-flags": ["-open RescriptCore"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@jvlk/rescript-immutable-data",
+  "version": "1.0.0-alpha.1",
+  "description": "Aplha attempt at immmutable data for ReScript Core",
+  "scripts": {
+    "build": "rescript",
+    "format": "prettier . --write",
+    "res:build": "rescript build -with-deps",
+    "res:dev": "rescript build -w -with-deps"
+  },
+  "keywords": [],
+  "author": "Josh Derocher",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@rescript/core": "^0.3.1",
+    "@rescript/react": "^0.11.0",
+    "rescript": "^10.1.4"
+  }
+}
