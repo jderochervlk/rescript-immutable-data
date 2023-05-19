@@ -6,7 +6,7 @@
     "build": "rescript",
     "format": "prettier . --write",
     "res:build": "rescript build -with-deps",
-    "res:dev": "rescript build -w -with-deps",
+    "res:dev": "rescript build -w -with-deps"
   },
   "keywords": [],
   "author": "Josh Derocher",
@@ -16,6 +16,6 @@
   "dependencies": {
     "@rescript/core": "^0.3.1",
     "@rescript/react": "^0.11.0",
-    "rescript": "^10.1.4",
+    "rescript": "^10.1.4"
   }
 }
